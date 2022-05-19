@@ -7,7 +7,7 @@
 
   <Target Name="MyTarget" AfterTargets="MinVer">
     <PropertyGroup>
-      <MinVerTagPrefix>project1-</MinVerTagPrefix>
+      <MinVerTagPrefix>project2-</MinVerTagPrefix>
       <Version>$(MinVerMajor).$(MinVerMinor).$(MinVerPatch)</Version>
       <MinVerDefaultPreReleasePhase>preview</MinVerDefaultPreReleasePhase>
     </PropertyGroup>
