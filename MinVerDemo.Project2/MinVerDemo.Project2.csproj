@@ -5,4 +5,12 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <Target Name="MyTarget" AfterTargets="MinVer">
+    <PropertyGroup>
+      <MinVerTagPrefix>project1-</MinVerTagPrefix>
+      <Version>$(MinVerMajor).$(MinVerMinor).$(MinVerPatch)</Version>
+      <MinVerDefaultPreReleasePhase>preview</MinVerDefaultPreReleasePhase>
+    </PropertyGroup>
+  </Target>
+
 </Project>
