@@ -15,7 +15,7 @@
   </Target>
 
   <ItemGroup Label="Package References">
-    <PackageReference Include="MinVer" PrivateAssets="All" Version="2.3.0" />
+    <PackageReference Include="MinVer" PrivateAssets="All" Version="4.0.0" />
   </ItemGroup>
 
 </Project>
