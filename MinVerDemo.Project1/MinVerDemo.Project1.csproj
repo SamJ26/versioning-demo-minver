@@ -14,4 +14,8 @@
     </PropertyGroup>
   </Target>
 
+  <ItemGroup Label="Package References">
+    <PackageReference Include="MinVer" PrivateAssets="All" Version="2.3.0" />
+  </ItemGroup>
+
 </Project>
