@@ -10,6 +10,7 @@
       <MinVerTagPrefix>project2-</MinVerTagPrefix>
       <Version>$(MinVerMajor).$(MinVerMinor).$(MinVerPatch)</Version>
       <MinVerDefaultPreReleasePhase>preview</MinVerDefaultPreReleasePhase>
+      <MinVerIgnoreHeight>true</MinVerIgnoreHeight>
     </PropertyGroup>
   </Target>
 
